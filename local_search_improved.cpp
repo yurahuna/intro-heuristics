@@ -71,7 +71,7 @@ vector<int> solve_local_search(const Input& input) {
         } else {
             // 2点スワップ
             int d1 = rng() % (input.D - 1);
-            int d2 = min<int>(d1 + 1 + rng() % 16, input.D);
+            int d2 = min<int>(d1 + 1 + rng() % 16, input.D - 1);
             swap(out[d1], out[d2]);
             
             ll new_score = compute_score(input, out);
