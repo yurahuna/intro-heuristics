@@ -14,7 +14,6 @@
 2. `greedy_improved.cpp`: 貪欲法の改善版（1日ごとに、k日先のスコアが最も良くなるコンテストを選ぶ）
 3. `local_search.cpp`: 局所探索法（山登り法）（ランダムな初期解からはじめ、ランダムに選んだ1日のコンテストをランダムに変える）
 4. `local_search_improved.cpp`: 局所探索法（山登り法）（`local_search.cpp`に加え、ランダムに選んだ2日のコンテストを交換する操作も行う）
-5. 
 
 これらの解法は[公式の解説](https://img.atcoder.jp/intro-heuristics/editorial.pdf)をもとにしています。
 
